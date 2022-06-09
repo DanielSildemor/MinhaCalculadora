@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fundo{
+    background-image: linear-gradient(90deg, rgb(247, 191, 191), rgb(164, 199, 164));
+    height: 100vh;
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-align: center;
+}
+
+
+.calculadora{
+
+    position: absolute;
+    background-color: rgb(65, 65, 65);
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.botao{
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.5);
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    border:none;
+    border-radius: 8px;
+    margin: 3px;
+    
+}
+
+
+.botao:hover{
+    background-color: cornflowerblue;
+    transition: 0.3s;
+
+}
+.botao-c{
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.5);
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    border:none;
+    border-radius: 8px;
+    background-color: rgb(194, 78, 55);
+    margin: 3px;
+
+}
+.botao-c:hover{
+    background-color: cornflowerblue;
+    transition: 0.3s;
+
+}
+.botao-igual{
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.5);
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    border:none;
+    border-radius: 8px;
+    background-color: rgb(55, 194, 90);
+    margin: 3px;
+
+}
+.botao-igual:hover{
+    background-color: cornflowerblue;
+    transition: 0.3s;
+
+}
+
+footer{
+    text-align:right;
+    margin-top: 10px;
+    font-size: 10px;
+
+}
+#resultado{
+    background-color: white;
+    max-width: 215px;
+    height: 30px;
+    margin: 5px;
+    font-size: 30px;
+    color: black;
+    text-align: right;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.5);
+   
+
+}
